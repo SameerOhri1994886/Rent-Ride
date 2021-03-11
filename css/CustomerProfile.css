@@ -1,0 +1,48 @@
+img{
+    width: 350px;
+    height: 300px;
+    margin-left: 35%;
+}
+h1{
+    margin-left: 42%;
+    font-family: cursive;
+}
+label {
+    font-family: cursive;
+    margin-left: 35%;
+}
+#Fname{
+    margin-left: 120px;
+    margin-top: 1%;
+    height: 20px;
+    background-color: bisque;
+}
+
+#address{
+        margin-left: 140px;
+        height: 50px;
+        background-color: bisque;
+}
+input[type=email]{
+    margin-left: 150px;
+    height: 20px;
+    background-color: bisque;
+}
+#dln{
+        margin-left: 35px;
+        height: 20px;
+        background-color: bisque;
+}
+#phone{
+        margin-left: 150px;
+        height: 20px;
+        background-color: bisque;
+}
+button{
+        margin-left: 43%;
+        margin-top: 1%;
+        height: 40px;
+        border-radius: 10px;
+        background-color: goldenrod;
+        font-family: cursive;
+    }
