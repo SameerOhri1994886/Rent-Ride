@@ -1,26 +1,48 @@
 CREATE DATABASE CarRental;
 USE CarRental;
 
-CREATE TABLE Customers (
-    FullName varchar(255),
-	Username varchar(255),
-    Address varchar(255),
-    Email varchar(70), 
-    Password varchar(70),
-    DrivingLicenseNo varchar(16),
-    Phone varchar(10)
+CREATE TABLE Customer (
+    CustomerID int PRIMARY KEY NOT NULL,
+    FullName varchar(255) NOT NULL,
+	Username varchar(255) NOT NULL,
+    Address varchar(255) NOT NULL,
+    Email varchar(70) NOT NULL, 
+    Password varchar(70) NOT NULL,
+    DrivingLicenseNo varchar (16) NOT NULL,
+    Phone varchar(10) NOT NULL
 );
 
-CREATE TABLE Employees (
-    FullName varchar(255),
-	Username varchar(255),
-    Email varchar(70), 
-    Password varchar(70)
+CREATE TABLE CustomerProfile (
+    USerID int PRIMARY KEY NOT NULL,
+    FullName varchar(255) NOT NULL,
+    Address varchar(255) NOT NULL,
+    Email varchar(70) NOT NULL, 
+    DrivingLicenseNo varchar(16) NOT NULL,
+    Phone varchar(10) NOT NULL
 );
 
-CREATE TABLE Cars (
-    Brand varchar(255),
-	Model varchar(255),
-    Year int,
-    Type varchar(255) 
+CREATE TABLE Employee (
+    EmployeeID int PRIMARY KEY NOT NULL,
+    UserID int NOT NULL,
+    FullName varchar(255) NOT NULL,
+	Username varchar(255) NOT NULL,
+    Email varchar(70) NOT NULL, 
+    Password varchar(70) NOT NULL,
+    FOREIGN KEY(UserID) references CustomerProfile(UserID)
 );
+
+CREATE TABLE CarInventory (
+    CarID int PRIMARY KEY NOT NULL,
+    CarBrand varchar(255) NOT NULL,
+	CarModel varchar(255) NOT NULL,
+    Year int NOT NULL,
+    CarType varchar(255) NOT NULL 
+);
+
+CREATE TABLE CarReservation (
+    BookingID int PRIMARY KEY NOT NULL,
+    StartDate date NOT NULL,
+	EndDate date NOT NULL
+   );
+
+
