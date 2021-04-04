@@ -1,0 +1,41 @@
+.section{
+    position: absolute;  
+    top:0;
+    right:0;
+    left:0;
+    word-spacing:130px;
+    background-color:black;
+    height: 38px;
+    width: 101.5%;
+    padding-bottom: 10%;
+}
+img{                    
+    float: left;
+    height: 183px;
+    width: 180px;
+   }
+.sp{                     
+    padding-top: 70px;
+    padding-left:360px;
+    font-family: cursive;
+   }
+   .sp :hover{
+       background-color: red;
+   }
+a{                
+    color: white;      
+    font-size: 28px;
+    text-decoration: none;
+ }
+.i{
+    margin-top: 1%;
+    height:100%;
+    width: 102.5%;      
+    }
+marquee{
+       font-family: cursive;
+       color: white;
+    }
+
+
+
