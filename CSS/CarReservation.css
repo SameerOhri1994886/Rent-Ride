@@ -1,0 +1,103 @@
+img{
+    margin-left: 41%;
+    height: 250px;
+    width: 250px;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    margin-left: 25%;
+    font-family: cursive;
+}
+h3{
+    margin-top: 0px;
+    margin-left: 25%;
+    font-family: cursive;
+    text-decoration: underline;
+}
+#total{
+    margin-left: 7.2%;
+    font-size: 16px;
+    font-family: cursive;
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    width: 130px;
+    height: 35px;
+    background-color: bisque;
+}
+#l1{
+    margin-left: 25%;
+    font-family: cursive;
+}
+#start{
+    margin-left: 10%;
+    font-family: cursive;
+    background-color: bisque;
+}
+#l2{
+    margin-left: 10%;
+    font-family: cursive;
+}
+#l3{
+    margin-left: 25%;
+    font-family: cursive;
+}
+#l4{
+    margin-left: 8%;
+    font-family: cursive;
+}
+#end{
+    margin-left: 8%;
+    font-family: cursive;
+    background-color: bisque;
+}
+label{
+    margin-left: 25%;
+    font-family: cursive;
+}
+#price{
+    margin-left: 10%;
+    width: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: bisque;
+    color: black;
+    border-color: bisque;
+}
+#tp{
+    margin-left: 2.3%;
+    font-family: cursive;
+}
+#loc1{
+    background-color: bisque;
+    margin-left: 6%;
+    width: 150px;
+    height: 50px;
+}
+#loc2{
+    background-color: bisque;
+    margin-left: 7%;
+    width: 150px;
+    height: 50px;
+}
+#btn-create-reservation{
+    background-color: lightgreen;
+    margin-top: 0.5%;
+    margin-left: 45%;
+    border-radius: 10px;
+    height: 40px;
+    font-family: cursive;
+}
+#cancel{
+    background-color: lightcoral;
+    margin-top: 1%;
+    margin-left: 44%;
+    border-radius: 10px;
+    height: 40px;
+    font-family: cursive;
+}

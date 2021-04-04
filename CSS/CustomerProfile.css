@@ -1,0 +1,67 @@
+img{
+    width: 350px;
+    height: 300px;
+    margin-left: 38%;
+}
+h1{
+    margin-left: 42%;
+    font-family: cursive;
+}
+label {
+    font-family: cursive;
+    margin-left: 35%;
+    font-size: 20px;
+}
+#Fname{
+    margin-left: 170px;
+    margin-top: 1%;
+    height: 20px;
+    background-color: bisque;
+    font-family: cursive;
+    font-size: 20px;
+}
+#address{
+        margin-left: 195px;
+        height: 50px;
+        background-color: bisque;
+        font-family: cursive;
+        font-size: 20px;
+}
+#email{
+    margin-left: 205px;
+    height: 20px;
+    background-color: bisque;
+    font-family: cursive;
+    font-size: 20px;
+}
+#dln{
+        margin-left: 55px;
+        height: 20px;
+        background-color: bisque;
+        font-family: cursive;
+        font-size: 20px;
+}
+#phone{
+        margin-left: 205px;
+        height: 20px;
+        background-color: bisque;
+        font-family: cursive;
+        font-size: 20px;
+}
+#b1{
+        margin-left: 45%;
+        margin-top: 5%;
+        height: 40px;
+        border-radius: 10px;
+        background-color: goldenrod;
+        font-family: cursive;
+    }
+#b2{
+        margin-left: 45%;
+        margin-top: 5%;
+        height: 40px;
+        border-radius: 10px;
+        background-color: goldenrod;
+        font-family: cursive;
+    }
+
