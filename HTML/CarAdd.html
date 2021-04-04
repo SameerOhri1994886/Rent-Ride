@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Adding Car</title>
+    <link rel="stylesheet" type="text/css" href="../css/CarAdd.css">
+    <script src="../javascript/CarAdd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../javascript/InventoryScript.js"></script>
+  <script src="../javascript/CarInventory.js"></script>
+</head>
+<body>
+    <img src="../images/logo.png"id="img">
+  <h1>Adding a new Car</h1>
+  <br><br>
+  <form>
+  <br><br>
+  <form>
+  <label id="l1">Brand :</label>
+  <input type="text"id="Brand">
+  <br><br>
+  <label id="l2">Model :</label>
+  <input type="text"id="Model">
+  <br><br>
+  <label>Year :</label>
+  <input type="text"id="Year">
+  <br><br>
+  <label>Type:</label>
+  <input type="text"id="Type">
+  <br><br>
+  <input type="button"id="button"value="Add Car"onclick="validate()">
+  </form>
+  <table id="inventory">
+    <thead>
+    <tr>
+        <th>Brand</th>
+        <th>Model</th>
+        <th>Year</th>
+        <th>Type</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+</html>
