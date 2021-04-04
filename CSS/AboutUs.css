@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.i{
+    float: left;
+    width: 102%;
+}

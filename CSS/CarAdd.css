@@ -1,0 +1,103 @@
+#img{
+    margin-left: 41%;
+    height: 250px;
+    width: 250px;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    margin-left: 25%;
+    font-family: cursive;
+}
+#l1{
+    margin-left: 25%;
+    font-family: cursive;
+}
+#upload{
+    margin-left: 1.5%;
+}
+#Brand{
+    margin-left: 7%;
+    font-family: cursive;
+    background-color: bisque;
+}
+#l2{
+    margin-left: 25%;
+    font-family: cursive;
+}
+#Model{
+    margin-left: 7%;
+    font-family: cursive;
+    background-color: bisque;
+}
+label{
+    margin-left: 25%;
+    font-family: cursive;
+}
+#Year{
+    margin-left: 7.7%;
+    font-family: cursive;
+    width: 50px;
+    background-color: bisque;
+}
+#Type{
+    margin-left: 7.7%;
+    font-family: cursive;
+    background-color: bisque;
+}
+#button{
+    background-color: lightgreen;
+    margin-top: 5%;
+    margin-left: 45%;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    font-family: cursive;
+}
+table{
+    border: 1px solid black;
+    margin-top: 5%;
+    border-collapse: collapse;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    font-family: cursive;
+    width: 100%;
+}
+table td{
+    border:1px solid white;
+    text-align: center;
+}
+th{
+    background-color: red;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+#car{
+    width: 80%;
+}
+
+#model{
+    width: 20%;
+}
+#year{
+width: 20%;
+}
+#class{
+width: 20%;
+}
+a {
+    margin-left: 40%;
+    color: black;
+    background-color: goldenrod;
+    text-decoration: none;
+    display: block;
+    width: 20%;
+    text-align: center;
+    font-family: cursive;
+}
